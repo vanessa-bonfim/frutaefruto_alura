@@ -1,0 +1,4 @@
+.banner__imagem {
+    height: calc(100vh - 72px); /*Este calculo fará com que a altura da página não inclua o cabeçalho e os menus*/
+    width: 100%;
+}
