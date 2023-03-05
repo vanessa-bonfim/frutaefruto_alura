@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <meta charset="UTF-8">
@@ -25,7 +26,16 @@
     <link rel="stylesheet" href="assets/css/receita/receita-titulo.css">
     <link rel="stylesheet" href="assets/css/receita/receita-descricao.css">
     <link rel="stylesheet" href="assets/css/receita/receita-botao.css">
+    <link rel="stylesheet" href="assets/css/quemSomos/quemSomos.css">
+    <link rel="stylesheet" href="assets/css/quemSomos/quemSomos-descricao.css">
+    <link rel="stylesheet" href="assets/css/quemSomos/quemSomos-titulo.css">
+    <link rel="stylesheet" href="assets/css/pessoas.css">
+    <link rel="stylesheet" href="assets/css/pessoa/pessoa.css">
+    <link rel="stylesheet" href="assets/css/pessoa/pessoa-imagem.css">
+    <link rel="stylesheet" href="assets/css/pessoa/pessoa-nome.css">
+    <link rel="stylesheet" href="assets/css/pessoa/pessoa-funcao.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <img class="logo" src="assets/img/logo.jpg" alt="Logo Fruta e Fruto">
@@ -39,12 +49,13 @@
         </nav>
     </header>
     <section class="banner">
-        <img class="banner__imagem" src="./assets/img/banner.jpg" alt="Banner"/>
+        <img class="banner__imagem" src="./assets/img/banner.jpg" alt="Banner" />
         <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2>
     </section>
     <section class="sobre">
         <h2 class="sobre__titulo">Receitas para economizar e ganhar saúde</h2>
-        <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
+        <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar
+            tempo e praticidade</p>
     </section>
     <!-- section.receitas>(div.receita>img.receita__imagem+div.receita__conteudo>h4.receita__titulo+p.receita__descricao+button.receita__botao)*6 -->
     <section class="receitas">
@@ -73,7 +84,8 @@
             </div>
         </div>
         <div class="receita">
-            <img alt="Pimentões à Juliana" class="receita__imagem" src="./assets/img/receitas/pimentoes-a-juliana.jpg" />
+            <img alt="Pimentões à Juliana" class="receita__imagem"
+                src="./assets/img/receitas/pimentoes-a-juliana.jpg" />
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Pimentões à Juliana</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
@@ -97,5 +109,27 @@
             </div>
         </div>
     </section>
+    <section class="quem-somos">
+        <h3 class="quem-somos__titulo">Quem somos</h3>
+        <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+        <div class="pessoas">
+            <div class="pessoa">
+                <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+                <span class="pessoa__nome">Roberta</span>
+                <span class="pessoa__funcao">Conteúdo</span>
+            </div>
+            <div class="pessoa">
+                <div class="pessoa__imagem pessoa__imagem--marcela"></div>
+                <span class="pessoa__nome">Marcela</span>
+                <span class="pessoa__funcao">Chef de cozinha</span>
+            </div>
+            <div class="pessoa">
+                <div class="pessoa__imagem pessoa__imagem--andreia"></div>
+                <span class="pessoa__nome">Andréia</span>
+                <span class="pessoa__funcao">Pequena Produtora</span>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
